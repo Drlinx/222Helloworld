@@ -18,7 +18,7 @@
 
 #include <stdio.h>
 
-int main (int argv, char *argc){
-    printf("Hello %s\n", argc);
+int main (int argc, char *argv[]){
+    printf("Hello %s\n", argv[1]);
     return 1;
 }
